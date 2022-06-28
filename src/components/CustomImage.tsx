@@ -10,10 +10,10 @@ function PullJson() {
         .then(responseData => {
             console.log(responseData)
         })
+       
+    useEffect(() => {
+        PullJson()
+    }, [])
 }
 
 export default PullJson;
-
-useEffect(() => {
-    PullJson()
-}, [])
