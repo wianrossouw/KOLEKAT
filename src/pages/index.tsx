@@ -26,7 +26,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
 
 
     <ProductGrid products={products} />
-    <div className=""></div>
+    <div className="p-3"></div>
     <div className="block border-solid border border-black border-r-0 border-l-0 block md:hidden"> <MobileBottomBanner /> </div>
     <div className="block border-solid border border-black border-r-0 border-l-0 hidden md:block"> <BannerImage2 /> </div>
   </>
