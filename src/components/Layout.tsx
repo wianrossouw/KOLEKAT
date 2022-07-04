@@ -74,11 +74,7 @@ const Layout = ({ children }) => {
         <div className="py-6 border-t border-black text-center flex flex-col md:flex-row items-center justify-between md:border-t-0">
 
           <nav className="flex items-center justify-end space-x-3 md:space-x-6">
-            <Link href="/about">
-              <a className="text-gray-800 hover:text-blue-600 p-1 transition text-sm">
-                FAQS
-              </a>
-            </Link>
+
             <Link href="/terms-of-sale">
               <a className="text-gray-800 hover:text-blue-600 p-1 transition text-sm visible md:invisible">
                 Terms of Sale
